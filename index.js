@@ -155,8 +155,16 @@ Use the removeFlavorByName function below to do the following:
   HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/){
-  /*your code here---started on replit named "BaskinRobbins*/
+
+
+// function removeFlavorByName(array, removeFlavor) {
+//   array.splice(array.indexOf(removeFlavor), 1);
+//   return array;
+// }
+
+function removeFlavorByName(array, removeFlavor) {
+  array.splice(array.indexOf(removeFlavor), 1);
+  return array;
 }
 
 
